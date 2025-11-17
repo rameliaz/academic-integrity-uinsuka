@@ -135,11 +135,11 @@ Top eight outlets by number of publications
 
 ::: {.columns}
 ::: {.column width="50%"}
-![](img/retraction_per_year.png){fig-align="center" .fragment}
+![](img/retraction_per_year.png){fig-align="center" width="140%" .fragment}
 :::
 
 ::: {.column width="50%"}
-![](img/wordcloud_reason.png){fig-align="center" .fragment}
+![](img/wordcloud_reason.png){fig-align="center" width="140%" .fragment}
 
 :::
 :::
@@ -148,6 +148,8 @@ Top eight outlets by number of publications
 Retractions are almost always associated with scientific misconduct.
 
 Some cases involves blatant scientific misconduct, including buying papers from paper mills.
+
+Paper mill is a commercial entity that offers authorship for sale, fabricated peer-reviews, and other services.
 
 :::
 
@@ -296,7 +298,7 @@ Are these arguments just wishful thinking?
 ::: {.smaller}
 * Transparency can improve error/misconduct detection, but cannot act as deterrence.
   * Deterrence requires strong assumptions: that people *believe* that they *can* get caught and receive consequences/punishment from committing misconduct.
-  * Some perpetrators don't see themselves doing anything wrong.
+  * Some perpetrators don't see themselves doing anything wrong (i.e., 'normal misbehavior', [De Vries et al., 2006](@devriesNormalMisbehaviorScientists2006)).
   * Some people are more risk averse than others.
 
 * Transparency without reforming how we assess 'research quality' won't fix perverse incentives problems.
