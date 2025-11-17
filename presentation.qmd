@@ -282,7 +282,8 @@ Academic misconduct is considered to be the logical behavioral consequence of ou
 * Transparency makes cheating [easier to detect]{.mark} and can [reduce ambiguity]{.mark} about what behaviors count as misconduct.
   * In the culture of transparency, scientific misconduct is harder to be justified as "everyone does it".
   * Scientists can feel more confident about their claims, signaling that they are ready for public scrutiny.
-  * At the end, we hope that transparency is embraced as a shared professional identity. 
+
+* At the end, we hope that transparency is embraced as a shared professional identity. 
   * In this sense, people avoid misconduct not because they fear of getting caught, but cheating is seen as incompatible with their professional identity.
 
 :::
