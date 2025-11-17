@@ -1,0 +1,341 @@
+---
+from: markdown+emoji
+format: 
+  letterbox-revealjs:
+    css: [custom.css]
+    progress: true
+    menu: true
+    width: 1280
+    height: 720
+    embed-resources: true
+    transition: fade
+callout-appearance: simple
+editor_options: 
+  chunk_output_type: console
+date: last-modified
+bibliography: ref.bibtex
+csl: apa-6th-edition.csl
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+```
+
+::: {.columns}
+::: {.column width="80%"}
+::: {.title}
+Fostering the culture of transparency 
+:::
+
+<div style="height: 0.1em;"></div>
+
+::: {.subtitle}
+...for alleviating scientific integrity crisis in Indonesia
+:::
+
+<div style="height: 1.5em;"></div>
+
+#### "The Integrity Wake-Up Call"
+
+##### A pre-event of 2025 Al-Jami'ah Forum and Conference
+
+:::
+
+<div style="height: 0.75em;"></div>
+
+::: {.dateplace}
+Tuesday, 18 November 2025
+:::
+
+Rizqy Amelia Zein
+
+::: {.affiliation}
+Research Associate, LMU Munich & Assistant Professor, Universitas Airlangga
+
+![](resources/web.svg){.icon} [rameliaz.github.io](https://rameliaz.github.io/); ![](resources/email.svg){.icon} [Amelia.Zein@psy.lmu.de](mailto:Amelia.Zein@psy.lmu.de); ![](resources/github.svg){.icon} [rameliaz](https://github.com/rameliaz)
+:::
+
+::: {.column width="20%"}
+![](img/LMU_Muenchen_Logo.png){.sticker-float-right}
+
+![](img/fpsi.png){.sticker-float-midright width="300px" height=20%}
+
+:::
+:::
+
+::: {.notes}
+Say thanks
+
+Explain my background. I'm a quantitative social psychologist but have a secondary interest in metascience which is the study of the scientific process to improve science, and it is also known as "research on research".
+:::
+
+<!-- Above is title slide -->
+
+## Outline 
+
+* Do we have a crisis of scientific integrity?
+* Are these just a few "bad apples," or is it the entire ecosystem?
+* The culture of transparency: how does it work?
+
+::: {.notes}
+:::
+
+## {}
+
+![](img/kobra.png){fig-align="center" width="50%" style="margin-top: 0.1em;"}
+
+::: {style="text-align: center; margin-top: -2em;" .smaller}
+[Read the article](https://theconversation.com/efek-kobra-dosen-indonesia-terobsesi-pada-indeks-scopus-dan-praktik-tercela-menuju-universitas-kelas-dunia-105808)
+:::
+
+![](img/papermill.png){fig-align="center" width="50%"}
+
+::: {style="text-align: center; margin-top: -2em;" .smaller}
+[Read the article](https://theconversation.com/paper-mills-the-cartel-like-companies-behind-fraudulent-scientific-journals-230124)
+:::
+
+## We have been (incredibly) prolific
+
+::: {.columns}
+::: {.column width="50%"}
+![](img/scopus.png){fig-align="center"}
+
+::: {style="text-align: center; margin-top: -2em;" .smaller}
+Source: Scopus Database, 17.11.2025
+:::
+:::
+
+::: {.column width="50%"}
+![](img/source.png){fig-align="center" width="70%" .fragment}
+
+::: {style="text-align: center; margin-top: -2em;" .smaller .fragment}
+Top eight outlets by number of publications
+:::
+:::
+:::
+
+::: {.notes}
+
+:::
+
+## The system triggering this sudden proliferation
+
+![](img/berita-1.png){fig-align="center" width="60%"}
+
+::: {style="text-align: center; margin-top: -2em;" .smaller}
+[Source](https://www.tempo.co/politik/menteri-nasir-targetkan-15-ribu-publikasi-ilmiah-internasional-1256764)
+:::
+
+::: {.notes}
+
+:::
+
+## Prolific, but...
+
+::: {.columns}
+::: {.column width="50%"}
+![](img/retraction_per_year.png){fig-align="center" .fragment}
+:::
+
+::: {.column width="50%"}
+![](img/wordcloud_reason.png){fig-align="center" .fragment}
+
+:::
+:::
+
+::: {.notes}
+Retractions are almost always associated with scientific misconduct.
+
+Some cases involves blatant scientific misconduct, including buying papers from paper mills.
+
+:::
+
+## Prolific, but...
+
+![](img/high-profile-cases.png){fig-align="center"}
+
+::: {.notes}
+Sources: https://bangka.tribunnews.com/news/1664814/ulm-klarifikasi-isu-pencabutan-17-gelar-guru-besar-dan-ijazah-wisuda-bermasalah-satu-resmi-dicabut#
+
+https://www.science.org/content/article/how-shine-indonesian-science-game-system
+
+https://retractionwatch.com/2024/04/10/the-dean-who-came-to-visit-and-added-dozens-of-authors-without-their-knowledge/
+
+https://jaring.id/main-catut-nama-sampai-daur-ulang-artikel-ilmiah/
+
+https://www.tempo.co/politik/academic-misconduct-guru-besar-26126
+
+:::
+
+## Do we have a scientific integrity crisis?
+
+::: incremental 
+::: {.smaller}
+* We probably do, but the [massive underreporting]{.mark} and [lack of transparency]{.mark} in how institutions handle scientific misconduct cases make it difficult to fully understand the scale of the problem [@panelonscientificresponsibilityandtheconductofresearchMisconductScienceIncidence1992; @vieHowShouldResearchers2020].
+* The most important feature of science is self-correction, and one valuable tool to do this is [post-publication review]{.mark}^1^ [@vazireWhereAreSelfCorrecting2022; @bordignonSelfcorrectionScienceComparative2020], but are we ready with this *yet*?
+* We need more evidence for the scale of the severity, not just hearsay.
+  * What about cases of scientific misconduct involving abuse of power?
+  * Do we have a system that guarantees the safety of whistleblowers?
+:::
+:::
+
+::: {.callout-warning .fragment}
+[RI^2^ Index](https://sites.aub.edu.lb/lmeho/ri2/map/) can help us guesstimate the *risk* of compromised scientific integrity, but not the *severity* of the problems.
+:::
+
+::: aside
+^1^Anyone can review a published manuscript in a public repository and this review is open and easily accessible.
+:::
+
+::: {.notes}
+There is some evidence for self-correction, but it is way too slow to catch up with this sudden proliferation.
+
+:::
+
+## 'Bad Apples' or 'Bad Barrels'?
+
+::: {.columns}
+::: {.column width="70%"}
+::: incremental
+::: {.smaller}
+
+* It has been long argued that the crisis of scientific integrity in Indonesia is attributable to flawed moral characters of the perpetrators [@sandyPublishEarnIncentives2019; @hanamiQuestioningScientificPublications2023].
+  * Individuals use the pressure to publish as a "scapegoat" to justify their unethical practices [@hanamiQuestioningScientificPublications2023].
+
+* However, this is only one (unexhaustive) explanation.
+* There are at least [six plausible explanations]{.mark} [@havenExplanationsResearchMisconduct2021] on why individuals engage in scientific misconduct, with different levels of analysis.
+:::
+:::
+:::
+
+::: {.column width="30%"}
+![](img/cartoon-1.jpg){width="100%"}
+:::
+:::
+
+::: {.notes}
+Attributing misconduct solely on individual behaviors neglects the social contexts where this behavior emerges.
+
+:::
+
+## Plausible explanations [(Haven & van Woudenberg, 2021)]{.much-smaller}
+
+**Individual level**
+
+::: incremental 
+::: {.smaller}
+* [Rational Choice Theory]{.mark}: unethical decision making arises from cost-benefit calculation, where individuals are primarily motivated to maximize payoffs.
+* [Bad Apples Theory]{.mark}: unethical individuals behave unethically because they have flawed moral characters.
+* [General Strain Theory]{.mark}: unethical behaviors stem from maladaptive coping of extreme pressure/stress.
+* [Prospect Theory]{.mark}: unethical behaviors stem from the fear of loss (jobs, incentives, etc.) than potential gain.
+
+:::
+:::
+
+## Plausible explanations [(Haven & van Woudenberg, 2021)]{.much-smaller}
+
+**Institutional and beyond**
+
+::: incremental 
+::: {.smaller}
+* [Organizational Justice Theory]{.mark}
+  * Individuals who perceive themselves to be treated **fairly** by their institution behave more fairly themselves.
+  * However, if their institutions are perceived as being **unfair**, people are more likely to engage in unethical acts that make up for this perceived unfairness [@crainRelationshipsSurveyOrganizational2013; @gopalakrishnaPrevalenceQuestionableResearch2022].
+
+* [Ethos of Public Administration]{.mark}
+  * Individuals are seen to be isolated entity, while instutions can unify individuals into a single, efficient and rational working unit.
+  * Individuals are lazy, selfish, and disinterested in institution's missions so institutional unity and discipline should always be maintained.
+  * Extreme emphasis on effectiveness, efficiency, and quantitative outputs is at the expense of motivational crowding out (i.e., cobra effect, [Zein, 2018](@zeinEfekKobraDosen2018))
+
+:::
+:::
+
+::: {.notes}
+Organization unifies individuals through chain of command, a sense of mission, and hierarchical bureaucracies (e.g., IKU)
+
+Academic misconduct is considered to be the logical behavioral consequence of output-oriented management practices, based on performance incentives --> university rankings, impact factors, citation count, n of pubs are more important than the credibility of scientific claims.
+:::
+
+## 'Bad Apples' or 'Bad Barrels'?
+
+::: incremental 
+::: {.smaller}
+* It is more likely both.
+* Accumulated evidence says that unethical behaviors should be approached from multiple layer of explanatory levels [@kish-gephartBadApplesBad2010].
+* This aligns with evidence stating that professional stressors + low probability of misbehavior detection is a perfect recipe for scientific misconduct [@holtfreterPerceivedCausesResearch2020].
+* In an unhealthy research ecosystem, scientific misconduct is perceived as having [a low (personal/professional) risk]{.mark}, but offering [high returns]{.mark}.
+
+:::
+:::
+
+## Why Transparency?
+
+::: incremental 
+::: {.smaller}
+* We need to shift the focus from [prestige to credibility]{.mark}, which can be achieved by making all stages of the scientific process transparent.
+* What does transparency mean here?
+  * The audience receives sufficient information regarding [how all stages of research are documented]{.mark}, that they [can access]{.mark} these information without significant barriers, and that they are informed how to [interpret]{.mark} and [re-use]{.mark} research materials.
+
+* Transparency makes cheating [easier to detect]{.mark} and can [reduce ambiguity]{.mark} about what behaviors count as misconduct.
+  * In the culture of transparency, scientific misconduct is harder to be justified as "everyone does it".
+  * Scientists can feel more confident about their claims, signaling that they are ready for public scrutiny.
+  * At the end, we hope that transparency is embraced as a shared professional identity. 
+  * In this sense, people avoid misconduct not because they fear of getting caught, but cheating is seen as incompatible with their professional identity.
+
+:::
+:::
+
+::: {.notes}
+Are these arguments just wishful thinking?
+:::
+
+## But, is transparency alone sufficient?
+
+::: incremental 
+::: {.smaller}
+* Transparency can improve error/misconduct detection, but cannot act as deterrence.
+  * Deterrence requires strong assumptions: that people *believe* that they *can* get caught and receive consequences/punishment from committing misconduct.
+  * Some perpetrators don't see themselves doing anything wrong.
+  * Some people are more risk averse than others.
+
+* Transparency without reforming how we assess 'research quality' won't fix perverse incentives problems.
+* Imposing transparency standards (e.g., "open scientific practices") can add additional burdens to already overworked, underpaid researchers [@zeinOpenScienceCan2021].
+* Transparency can increase credibility, but doesn't automatically guarantee quality [@vazireCredibilityReplicabilityImproving2022].
+
+:::
+:::
+
+::: {.notes}
+:::
+
+## Thank you! 🙏
+
+::: columns
+::: {.column width="60%"}
+::: {.callout-tip}
+## Final Remarks
+
+* We do have a crisis of scientific integrity in Indonesia, though the extent of the problem is not well known.
+* This crisis is caused by both 'bad actors' and an unhealthy research ecosystem.
+* Transparency may help us detect errors and fraud more easily, but it is insufficient as a deterrent.
+
+:::
+:::
+:::
+
+![](img/latour.png){.image-right}
+
+::: {.notes}
+To end this presentation, let me emphasize my key arguments.
+
+I choose Latour seminal work here to highlight the fact that scientific process is a social process - we constantly navigate technical routines with external/interpersonal pressure.
+
+Scientific misconduct here is a symptom of underlying unhealthy research ecosystem.
+
+:::
+
+## References
+
+::: {#refs}
+:::
