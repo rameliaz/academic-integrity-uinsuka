@@ -53,7 +53,7 @@ Rizqy Amelia Zein
 ::: {.affiliation}
 Research Associate, LMU Munich & Assistant Professor, Universitas Airlangga
 
-![](resources/web.svg){.icon} [rameliaz.github.io](https://rameliaz.github.io/); ![](resources/email.svg){.icon} [Amelia.Zein@psy.lmu.de](mailto:Amelia.Zein@psy.lmu.de); ![](resources/github.svg){.icon} [rameliaz](https://github.com/rameliaz)
+![](resources/web.svg){.icon} [rameliaz.github.io](https://github.com/rameliaz/academic-integrity-uinsuka); ![](resources/email.svg){.icon} [Amelia.Zein@psy.lmu.de](mailto:Amelia.Zein@psy.lmu.de); ![](resources/github.svg){.icon} [rameliaz](https://github.com/rameliaz)
 :::
 
 ::: {.column width="20%"}
