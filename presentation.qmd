@@ -217,7 +217,7 @@ There is some evidence for self-correction, but it is way too slow to catch up w
 :::
 
 ::: {.notes}
-Attributing misconduct solely on individual behaviors neglects the social contexts where this behavior emerges.
+Attributing misconduct solely on individual behaviors neglects the social contexts where this behavior emerges, but stems from rather correct observations that severe sci misconduct are rare cases.
 
 :::
 
@@ -275,11 +275,11 @@ Academic misconduct is considered to be the logical behavioral consequence of ou
 
 ::: incremental 
 ::: {.smaller}
-* We need to shift the focus from [prestige to credibility]{.mark}, which can be achieved by making all stages of the scientific process transparent.
-* What does transparency mean here?
-  * The audience receives sufficient information regarding [how all stages of research are documented]{.mark}, that they [can access]{.mark} these information without significant barriers, and that they are informed how to [interpret]{.mark} and [re-use]{.mark} research materials.
+* We need to shift the focus from [prestige to credibility]{.mark}, which can be achieved by making all stages of the scientific process transparent .
+* What does transparency mean here? 
+  * The audience receives sufficient information regarding [how all stages of research are documented]{.mark}, that they [can access]{.mark} these information without significant barriers, and that they are informed how to [interpret]{.mark} and [re-use]{.mark} research materials [@winkerEquityTransparencyAccountability2023].
 
-* Transparency makes cheating [easier to detect]{.mark} and can [reduce ambiguity]{.mark} about what behaviors count as misconduct.
+* Transparency makes cheating [easier to detect]{.mark} and can [reduce ambiguity]{.mark} about what behaviors count as misconduct [@havenPromotingTrustResearch2022].
   * In the culture of transparency, scientific misconduct is harder to be justified as "everyone does it".
   * Scientists can feel more confident about their claims, signaling that they are ready for public scrutiny.
 
@@ -295,17 +295,27 @@ Are these arguments just wishful thinking?
 
 ## But, is transparency alone sufficient?
 
+::: columns
+::: {.column width="70%"}
 ::: incremental 
 ::: {.smaller}
 * Transparency can improve error/misconduct detection, but cannot act as deterrence.
-  * Deterrence requires strong assumptions: that people *believe* that they *can* get caught and receive consequences/punishment from committing misconduct.
+  * Deterrence requires strong assumptions: that people *believe* that they *can* get caught and thus receive consequences/punishment from committing misconduct.
   * Some perpetrators don't see themselves doing anything wrong (i.e., 'normal misbehavior', [De Vries et al., 2006](@devriesNormalMisbehaviorScientists2006)).
   * Some people are more risk averse than others.
 
 * Transparency without reforming how we assess 'research quality' won't fix perverse incentives problems.
 * Imposing transparency standards (e.g., "open scientific practices") can add additional burdens to already overworked, underpaid researchers [@zeinOpenScienceCan2021].
-* Transparency can increase credibility, but doesn't automatically guarantee quality [@vazireCredibilityReplicabilityImproving2022].
+* Transparency may increase credibility, but doesn't automatically guarantee quality [@vazireCredibilityReplicabilityImproving2022].
 
+:::
+:::
+:::
+
+::: {.column width="30%"}
+![](img/os.png)
+
+[Source: [Haven et al., 2022](@havenPromotingTrustResearch2022)]{.smaller}
 :::
 :::
 
