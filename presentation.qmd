@@ -136,10 +136,19 @@ Top eight outlets by number of publications
 ::: {.columns}
 ::: {.column width="50%"}
 ![](img/retraction_per_year.png){fig-align="center" width="140%" .fragment}
+
+::: {style="text-align: center; margin-top: -2em;" .smaller}
+Source: [RetractionWatch Database](https://gitlab.com/crossref/retraction-watch-data), 17.11.2025
+:::
+
 :::
 
 ::: {.column width="50%"}
 ![](img/wordcloud_reason.png){fig-align="center" width="140%" .fragment}
+
+::: {style="text-align: center; margin-top: -2em;" .smaller}
+Source: [RetractionWatch Database](https://gitlab.com/crossref/retraction-watch-data), 17.11.2025
+:::
 
 :::
 :::
